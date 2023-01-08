@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header part css */
+
+.header{
+    background: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+}
+.header-title{
+    text-align: right;
+    padding-top: 200px;
+    padding-right: 150px;
+    padding-left: 700px;
+}
+.header-title h1{
+    font-weight: 800;
+    font-size: 65px;
+    padding-bottom: 10px;
+}
+.header-title p{
+    padding-bottom: 30px;
+}
+.header-title button{
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    color: white;
+    background: #F15B22;
+    border: none;
+    border-radius: 5px;
+}
+
+/* hero part css */
+
+.hero{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+.hero-banner img{
+    width: 550px;
+    height: 700px;
+    padding-left: 100px;
+}
+.hero-text{
+    padding-left: 80px;
+    padding-right: 200px;
+}
+.hero-text h3{
+    font-size: 40px;
+    font-weight: 700px;
+    padding-bottom: 20px;
+}
+.hero-list ul{
+    padding-top: 20px;
+}
+.hero-list ul li{
+    list-style: none;
+    padding-bottom: 10px;
+    display: flex;
+}
+.hero-list ul li img{
+    height: 20px;
+    padding-right: 10px;
+}
+
+/* my-plans css */
+
+.my-plans{
+    text-align: center;
+}
+.my-plans{
+    padding-top: 100px;
+}
+.my-plans h2{
+    font-weight: 700px;
+    font-size: 40px;
+}
+.my-skill{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px; 
+}
+.skill{
+    padding: 0px 80px;
+}
+.skill h3{
+    padding: 10px 0px;
+}
+
+/* banner img css */
+
+.banner-img{
+    height: 300px;
+    margin-left: 100px;
+    background: linear-gradient(90deg, #F15B22 0%, 
+    rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;   
+}
+.banner-title{
+    padding-top: 60px;
+    padding-left: 50px;
+
+}
+.banner-title h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 600px;
+    padding-bottom: 20px;
+    color: white;
+}
+.banner-title button{
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    border-radius: 5px;
+    border: none;
+}
+
+/* footer css */
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-left{
+    width: 42%;
+    height: 400px;
+    color: white;
+    
+}
+.footer-left h2{
+    font-size: 36px;
+    font-weight: 200px;
+    padding-top: 100px;
+
+}
+.footer-left p{
+    padding-right: 60px;
+    padding-top: 20px;
+}
+.footer-left a img{
+    padding-top: 20px;
+    margin-right: 15px;
+}
+.footer-right{
+    width: 42%;
+    height: 400px;
+    
+}
+.footer-right h4{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 100px;
+    padding-left: 250px;
+    color: white;
+}
+.footer-right input{
+    margin-left: 250px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    background: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-color: white;
+}
+.footer-right button{
+    margin-left: 250px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: #F15B22;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
