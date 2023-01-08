@@ -94,6 +94,15 @@
     padding: 10px 0px;
 }
 
+/* my-activity css */
+
+.activity{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
 /* banner img css */
 
 .banner-img{
