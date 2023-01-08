@@ -98,9 +98,35 @@
 
 .activity{
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 100px;
+}
+.activity h2{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 20px;
+
+}
+.activity p{
+    padding: 0px 100px;
+
+}
+.activity-item{
+    display: flex;
+    margin-top: 40px;
+    
+}
+.activity-item img{
+    height: 300px;
+    width: 350px;
+    margin-right: 38px;
+}
+.activity-item h4{
+    font-size: 24px;
+    font-weight: 400px;
+    margin-top: 20px;
+    margin-right: 30px;
 }
 
 /* banner img css */
